@@ -1,0 +1,162 @@
+nav {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ced5da;
+}
+a:hover {
+    cursor:pointer ;
+}
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+p.d1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+p.d2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+p.d3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.font1 {
+    font-family: sans-serif, monospace;
+    width: 26%;
+    margin: 0px auto;
+}
+.font2 {
+  font-family: 'Times New Roman', Times, serif;
+  width: 43%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: large;
+  line-height: 28px;
+  color: rgb(93, 90, 90);
+}
+.font3 {
+    
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(167, 159, 159);;
+}
+.font4 {
+    font-family: sans-serif, monospace;
+    width: 26%;
+    margin: 0px auto;
+}
+hr {
+    width: 100px;
+    margin: auto;
+}
+.custom-card {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form1 {
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+.form2 {
+    margin-bottom: 1px;
+    margin-right: 10px;
+}
+.custom-form-input {
+    border: 1px solid #ced5da;
+  }
+  .custom-form .form-control:focus {
+    border-color: #414444;
+    box-shadow: none
+  }
+  .custom-modal-content {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .custom-modal-header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3c3c3c;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+    /* Tùy chỉnh phong cách danh sách */
+    .custom-list {
+        padding: 5px;
+        list-style-type: none;
+      }
+      .end {
+        border-top: 1px solid rgb(224, 220, 220);
+        border-bottom: 1px solid rgb(224, 220, 220);
+      }
+      .dropdown:hover .dropdown-menu {
+        display: block;
+        animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .dropdown-menu {
+        border: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown-item {
+        color: #333;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa;
+    }
+    .dropdown-toggle::after {
+        content: none;
+    }
+    .indam{
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;;
+        font-size: 17px;
+    }
+    .chu{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(78, 76, 76);
+        font-size: 15px;
+    }
+    a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      .card {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .card img {
+        width: auto;
+        height: auto;
+        display: block;
+      }
+      
+      
+      .card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+      }
+      
+      
